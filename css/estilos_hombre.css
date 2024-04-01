@@ -1,0 +1,92 @@
+
+
+.icono_what{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    z-index: 100;
+    font-size: 30pt;
+}
+.icono_what img{
+    width: 100%;
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+}
+.enlaces a{
+    text-decoration: none;
+    color:#fff;
+}
+.enlaces a:hover{
+    box-shadow: 5px 10px 15px orange;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar li a{
+    font-size: 17pt;
+}
+
+#contenedor_carga{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: rgb(255, 253, 252);
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+.cate div img{
+    border-radius: 100%;
+}
+
+.navbar{
+    padding-bottom: 100px;
+}
+
+.tarjeta{
+    margin-bottom: 50px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px black;
+}
+
+.tarjeta img{
+    transition: all 500ms ease;
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+}
